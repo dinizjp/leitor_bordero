@@ -19,7 +19,7 @@ def extract_product_names_from_pdf(uploaded_file):
     return processed_products
 
 def main():
-    st.title('Extrator de Nomes de Produtos de PDFs')
+    st.title('Extrator de Borderô')
     uploaded_files = st.file_uploader("Faça o upload dos arquivos PDF aqui", type=["pdf"], accept_multiple_files=True)
     
     if uploaded_files:
